@@ -165,3 +165,5 @@ To enable this, go to Options (marked blue in the screenshot above) and add `,*.
 In this screenshot binary comparison has been enabled for `uasset`, `pak`, `sav` and `umap` files.
 
 **[Download WinMerge](https://winmerge.org/downloads)**
+
+WinMerge is exclusive to Windows. An alternative for Mac is [Meld](https://meldmerge.org).
