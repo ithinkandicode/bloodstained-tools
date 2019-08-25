@@ -47,6 +47,8 @@ You can specify either a single file, or a whole folder of other files. Files in
 
 The batch scripts let you drag and drop files/folders onto them for fast file processing.
 
+**[Download Batch Scripts 1.1.0](https://github.com/ithinkandicode/bloodstained-tools/raw/master/Serializer/files/Batch%20Scripts%201.1.0.zip)**
+
 ### Where to put them
 
 Move the _Batch Scripts_ folder into the same folder as the serializer.
@@ -65,7 +67,7 @@ If you drop a folder, all the subfolders inside it will be processed too.
 
   1. Drag and drop the file/folder containing UASSET files onto **1 - uasset to JSON.bat**
   1. JSON files will be created in the same folder as each uasset
-  
+
 #### JSON to Uasset (.bin)
 
   1. Make sure the original uasset files are in the same folder as their JSON files, and have the same filename
@@ -121,7 +123,7 @@ There is an excelent online tool for this. It can reverse the process too, and c
 - [JSON to CSV](http://www.convertcsv.com/json-to-csv.htm)
 - [CSV to JSON](http://www.convertcsv.com/csv-to-json.htm)
 
-To use either tool: 
+To use either tool:
 
   1. Select a file from the **Choose File** tab
   1. Click the conversion button (either _JSON to CSV_ or _CSV to JSON_)
