@@ -55,8 +55,6 @@ Move the _Batch Scripts_ folder into the same folder as the serializer.
 
 ![](screenshots/batch-scripts-folder.png)
 
-You don't need to keep any these readme files.
-
 ### How to use them
 
 Drag and drop files or folders into the batch script you want to use.
