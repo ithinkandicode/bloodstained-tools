@@ -128,9 +128,11 @@ To use either tool:
   1. Next to the **Download Result** button, enter the converted file's filename.
   1. Click the **Download Result** button
 
-The downloaded filename is arbitrary, but it's a good idea to match the name of the uploaded JSON file.
+When converting CSV to JSON, there's an extra option you need to enable to make sure arrays work correctly:
 
-You don't need to change any settings for either tool.
+![](screenshots/csv-to-json-options.png)
+
+JSON to CSV doesn't require any extra options.
 
 ### VS Code
 
