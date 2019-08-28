@@ -98,7 +98,7 @@ Bin files are uasset files, they just have a different file extension.
 To use them as uassets, you can either:
 
   1. Change the file extension manually, from `.bin` to `.uasset`
-  2. Use the bulk renamer batch script detailed below
+  2. Use the bulk renamer batch script detailed below (read carefully)
 
 You check your changes before renaming, you can compare bin vs. uasset a binary comparison tool (see [WinMerge](#winmerge) below).
 
@@ -108,7 +108,7 @@ This batch script lets you rename uasset files in bulk.
 
   1. Drag and drop the file/folder containing BIN files onto  **3 - Rename bin to UASSET.bat**
 
-**WARNING:** This process will delete the original uasset files, even if there is no bin file to replace it. Make sure you keep backups of the original uasset files as part of your modding workflow.
+**WARNING:** The bulk renamer will delete original uasset files, even if there is no bin file to replace them. Keep separate backups of the original, unmodified uasset files, and don't use the bulk renamer on the same file/folder as your JSON and original uasset (instead, copy/move the bin to the folder you use for packaging your mod into a .pak file, then then drop that folder onto the batch script).
 
 ## Additional Tools
 
