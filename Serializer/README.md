@@ -2,6 +2,8 @@
 
 Download Kein's serializer from the [Bloodstained Moders discord](http://discord.gg/b9XBH4f).
 
+This tool converts .uasset files to JSON. You can edit the JSON, then convert your edits back into the original uasset.
+
 
 ## Requirements
 
@@ -79,9 +81,7 @@ Some DataTables and their JSON files use arrays, which are sets of data within o
 
 If you change data within within an array, use **2 - json to BIN--force.bat**.
 
-Example array:
-
-![](screenshots/array.png)
+Example arrays: [PB_DT_CraftMaster](screenshots/array.png) / [PB_DT_ArtsCommandMaster](screenshots/array-complex.png)
 
 #### JSON to Uasset: Adding Entries
 
@@ -89,7 +89,7 @@ If you add new entries, use **2 - json to BIN--force-newentries.bat**.
 
 An example of adding entries would be appending _PB_DT_CheatCodeMaster_ to add new cheat codes.
 
-Note: Always add new entries to the bottom of your JSON files. You cannot remove existing entries.
+There are caveats though. You cannot remove existing entries, and some datatables have arrays that are too complex to process. The DataTable _PB_DT_ArtsCommandMaster_ is one example of this; you can edit its complex array values, but you can't add new entries to it.
 
 #### Bin Files
 
