@@ -81,10 +81,7 @@ Some DataTables and their JSON files use arrays, which are sets of data within o
 
 If you change data within within an array, use **2 - json to BIN--force.bat**.
 
-Example array:
-
-![](screenshots/array.png)
-
+Example arrays: [PB_DT_CraftMaster](screenshots/array.png) / [PB_DT_ArtsCommandMaster](screenshots/array-complex.png)
 
 #### JSON to Uasset: Adding Entries
 
@@ -92,9 +89,7 @@ If you add new entries, use **2 - json to BIN--force-newentries.bat**.
 
 An example of adding entries would be appending _PB_DT_CheatCodeMaster_ to add new cheat codes.
 
-**Note 1:** You cannot remove existing entries.
-
-**Note 2:** Some arrays are too complex to add entries to. The DataTable _PB_DT_ArtsCommandMaster_ is one example of this ([view screenshot](screenshots/array-complex.png)). You can edit this array data by changing existing values, but you cannot add new entries to it.
+There are caveats though. You cannot remove existing entries, and some datatables have arrays that are too complex to process. The DataTable _PB_DT_ArtsCommandMaster_ is one example of this; you can edit its complex array values, but you can't add new entries to it.
 
 #### Bin Files
 
