@@ -102,6 +102,8 @@ To use them as uassets, you can either:
 
 You check your changes before renaming, you can compare bin vs. uasset a binary comparison tool (see [WinMerge](#winmerge) below).
 
+Note: Don't use the bulk rename batch file on the same file/folder as your JSON and original uasset. Doing this will delete the original source uasset file, which you should keep. Instead, copy/move the bin to the folder you use for packaging your mod into a .pak file. Then then drop that folder onto the batch script.
+
 #### Bin to Uasset
 
 This batch script lets you rename uasset files in bulk.
